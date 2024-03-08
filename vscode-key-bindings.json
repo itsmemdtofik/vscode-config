@@ -1,0 +1,39 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "F5",
+    "command": "workbench.action.debug.start",
+    "when": "!editorFocus && !inDebugRepl && !inDebugSession"
+  },
+  {
+    "key": "F5",
+    "command": "workbench.action.debug.continue",
+    "when": "inDebugSession"
+  },
+
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile",
+    "when": "!editorFocus"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "explorer.newFolder",
+    "when": "!editorFocus"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "editor.action.formatDocument",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "!editorFocus && !inputFocus"
+  }
+]
