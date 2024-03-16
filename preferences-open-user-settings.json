@@ -147,6 +147,7 @@
       "panel.border": "#303030"
     },
     "[Default Dark Modern]": {
+      "panel.background": "#020202",
       "scrollbar.shadow": "#000",
       "editor.lineHighlightBackground": "#212121",
       "editor.lineHighlightBorder": "#212121",
@@ -201,6 +202,59 @@
       "editorSuggestWidget.focusHighlightForeground": "#c57ff3",
       "editorSuggestWidget.foreground": "#fff",
       "editorSuggestWidget.border": "#3c3c3c"
+    },
+    "[Ayu Dark]": {
+      "sideBar.border": "#202020",
+      "titleBar.border": "#202020",
+      "list.hoverForeground": "#fff",
+      "menu.border": "#202020",
+      "menu.separatorBackground": "#202020",
+      "menu.selectionForeground": "#fff",
+      "activityBar.border": "#202020",
+      "activityBar.foreground": "#e05050",
+      "editorSuggestWidget.selectedBackground": "#000",
+      "editorSuggestWidget.highlightForeground": "#02ff17",
+      "editorSuggestWidget.focusHighlightForeground": "#c57ff3",
+      "editorSuggestWidget.foreground": "#fff",
+      "editorSuggestWidget.border": "#3c3c3c"
+    },
+    "[Eclipse Dark]": {
+      "activityBar.border": "#212121",
+      "sideBar.border": "#212121",
+      "statusBar.border": "#212121",
+      "titleBar.border": "#212121",
+      "titleBar.activeBackground": "#101010",
+      "panel.background": "#020202",
+      "editorStickyScroll.border": "#212121",
+      "editorOverviewRuler.border": "#212121",
+      "menu.border": "#212121",
+      "editorGroup.border": "#212121",
+      "menu.separatorBackground": "#212121",
+      "scrollbar.shadow": "#000",
+      "editor.lineHighlightBackground": "#212121",
+      "editor.lineHighlightBorder": "#212121",
+      "editorCursor.background": "#000",
+      "editorCursor.foreground": "#fff",
+      "activityBar.background": "#080808",
+      "editor.background": "#090909",
+      "sideBar.background": "#101010",
+      "statusBar.background": "#090909",
+      "tab.activeBorder": "#fff",
+      "tab.activeBorderTop": "#2222",
+      "tab.hoverBorder": "#00ff0d",
+      "menu.background": "#101010",
+      "tab.border": "#101010",
+      "tab.hoverBackground": "#101010",
+      "tab.hoverForeground": "#fff",
+      "tab.activeBackground": "#101010",
+      "tab.inactiveBackground": "#101010",
+      "editorGroupHeader.tabsBackground": "#101010",
+      "editorSuggestWidget.background": "#121212",
+      "editorSuggestWidget.selectedBackground": "#000",
+      "editorSuggestWidget.highlightForeground": "#02ff17",
+      "editorSuggestWidget.focusHighlightForeground": "#c57ff3",
+      "editorSuggestWidget.foreground": "#fff",
+      "editorSuggestWidget.border": "#3c3c3c"
     }
   },
   "explorer.confirmDelete": false,
@@ -228,6 +282,7 @@
   "window.titleBarStyle": "custom",
   "window.customMenuBarAltFocus": true,
   "debug.terminal.clearBeforeReusing": true,
+  "workbench.sideBar.location": "left",
   "editor.fontWeight": "normal",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -238,5 +293,6 @@
   "editor.fontFamily": "Cascadia Mono",
   "workbench.settings.applyToAllProfiles": [
     "cmake.buildTask"
-  ]
+  ],
+  "workbench.colorTheme": "mtmoonlight dark theme"
 }
